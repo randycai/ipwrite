@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>输出界面</title>
+</head>
+<body>
+<form method="post" action = "/output_data"></form>
+<p>{% for items in Outputdata_BMNamed %}
+       {{items[0]}}
+       {{items[1]}}
+       {{items[2]}}
+       {{items[3]}}
+       {{items[4]}}<br>
+   {% end %}
+</p>
+</body>
+</html>
